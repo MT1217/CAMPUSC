@@ -1,0 +1,138 @@
+{
+  "navigation": {
+    "logo": "CampusConnect",
+    "menuItems": [
+      {
+        "label": "Home",
+        "path": "/",
+        "icon": "HomeIcon"
+      },
+      {
+        "label": "Events",
+        "path": "/calendar",
+        "icon": "CalendarMonthIcon"
+      },
+      {
+        "label": "Booking",
+        "path": null,
+        "icon": "SchoolIcon",
+        "submenu": [
+          {
+            "label": "Room Booking",
+            "path": "/room-booking",
+            "adminOnly": true
+          },
+          {
+            "label": "Study Spots",
+            "path": "/study-spots"
+          }
+        ]
+      }
+    ]
+  },
+  "home": {
+    "title": "Welcome to CampusConnect",
+    "subtitle": "National Institute of Technology, Warangal",
+    "description": "Your one-stop solution for managing institutional events, room bookings, and study spot availability.",
+    "cards": [
+      {
+        "title": "Event Calendar",
+        "description": "Stay updated with all campus events, academic schedules, and important dates.",
+        "icon": "CalendarMonthIcon",
+        "path": "/calendar",
+        "buttonText": "View Calendar"
+      },
+      {
+        "title": "Room Booking",
+        "description": "Book classrooms, labs, and seminar halls for classes and events. Manage room schedules efficiently.",
+        "icon": "ClassIcon",
+        "path": "/room-booking",
+        "buttonText": "Book Rooms",
+        "adminOnly": true
+      },
+      {
+        "title": "Study Spots",
+        "description": "Find and reserve quiet study spaces across campus. View real-time availability and amenities.",
+        "icon": "SchoolIcon",
+        "path": "/study-spots",
+        "buttonText": "Find Spots"
+      },
+      {
+        "title": "Quick Actions",
+        "description": "Quick access to common tasks and features.",
+        "icon": "EventNoteIcon",
+        "actions": [
+          {
+            "label": "Add New Event",
+            "path": "/calendar",
+            "icon": "CalendarMonthIcon",
+            "adminOnly": true
+          },
+          {
+            "label": "Book Room",
+            "path": "/room-booking",
+            "icon": "ClassIcon",
+            "adminOnly": true
+          },
+          {
+            "label": "View Study Spots",
+            "path": "/study-spots",
+            "icon": "SchoolIcon"
+          },
+          {
+            "label": "View Calendar",
+            "path": "/calendar",
+            "icon": "CalendarMonthIcon"
+          }
+        ]
+      }
+    ]
+  },
+  "rooms": {
+    "types": [
+      "Classroom",
+      "Laboratory",
+      "Seminar Hall",
+      "Conference Room",
+      "Study Room"
+    ],
+    "status": [
+      "Available",
+      "Occupied",
+      "Maintenance",
+      "Reserved"
+    ]
+  },
+  "studySpots": {
+    "locations": [
+      "Central Library",
+      "Department Libraries",
+      "Study Rooms",
+      "Cafeteria",
+      "Open Areas"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Power Outlets",
+      "Air Conditioning",
+      "Quiet Zone",
+      "Group Study Area"
+    ]
+  },
+  "events": {
+    "types": [
+      "Academic",
+      "Cultural",
+      "Sports",
+      "Technical",
+      "Workshop",
+      "Conference"
+    ],
+    "status": [
+      "Upcoming",
+      "Ongoing",
+      "Completed",
+      "Cancelled"
+    ]
+  }
+} 
